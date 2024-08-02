@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #928686;
+}
+
+ .container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #dfc0c0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid #8f8a8a;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #584e4e;
+}
+
+header p {
+    margin: 5px 0;
+    color: #9c9292;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #494040;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #5c5151;
+}
+
+.education, .experience, .project, .extracurricular {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+    color: #666;
+}
+
+ul {
+    margin: 10px 0 10px 20px;
+    padding: 0;
+    color: #666;
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #333;
+}
